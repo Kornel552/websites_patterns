@@ -1,0 +1,10 @@
+@import '~mdb-ui-kit/src/scss/mdb.pro.scss';
+
+// DARK SKIN
+$my-theme-primary: #1266f1;
+$my-theme-secondary: #b23cfd;
+$my-dark-theme: mdb-dark-theme($my-theme-primary, $my-theme-secondary);
+
+.dark {
+@include mdb-theme($my-dark-theme);
+}
