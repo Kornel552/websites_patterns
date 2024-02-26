@@ -8,3 +8,9 @@ $my-dark-theme: mdb-dark-theme($my-theme-primary, $my-theme-secondary);
 .dark {
 @include mdb-theme($my-dark-theme);
 }
+
+dd {
+    text-align: right;
+    border: 2px solid red;
+    padding: 20px;
+}
