@@ -1,2 +1,2 @@
-# websites-patterns
+# websites_patterns
 My HTML templates ideas.
