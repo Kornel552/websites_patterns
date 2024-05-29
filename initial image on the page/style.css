@@ -23,6 +23,7 @@
 }
 
 .btn-card {
+    color: white;
     background-color: #4E6A80;
 }
 .img {
@@ -46,6 +47,12 @@
     user-select: none;
 }
 
-.img2 {
+.card-move {
+    box-shadow: 15px 15px 0px 0px rgba(78, 106, 128, 1);
+    transform: translateY(0); /* Efekt przesunięcia w osi Y */
+    transition: transform 0.3s; /* Animacja transformacji */
+}
 
+.card-move:hover {
+    transform: translateY(-10px); /* Efekt uniesienia przycisku po najechaniu myszką */
 }
